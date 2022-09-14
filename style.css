@@ -540,13 +540,13 @@ h3{
 /* ***************BLOG CONTENT*********** */
 
 .blog-content{
-    width: 80% ;
+    width: 90% ;
     margin: auto;
     padding: 60px 0;
 }
 
 .blog-left{
-    flex-basis: 65%;
+    flex-basis: 45%;
 }
 
 .blog-left img{
@@ -564,8 +564,8 @@ h3{
     padding: 0;
 }
 
-.blog-right{
-    flex-basis: 32%;
+.blog-content .blog-right{
+    flex-basis: 45%;
 }
 
 .blog-right h3{
@@ -591,6 +591,12 @@ h3{
     font-weight: lighter;
 padding: 1px;
 display: inline-block;}
+}
+
+@media (max-width: 370px) {
+    .blog-content .row .blog-left p .pack{
+        border: none;
+    }
 }
 .abc{
     border: 1px solid #070707;
